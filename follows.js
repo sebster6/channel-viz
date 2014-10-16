@@ -256,11 +256,11 @@
 					$('#feed-' + data.id + ' .updated .value').html(data.updated);
 
 					// Tags
-					if(data.tags) {
+					//if(data.tags) {
 						$('#feed-' + data.id + ' .tags .value').html('<span class="radius secondary label">' + data.tags.join('</span> <span class="radius secondary label">') + '</span>');
-					} else {
-						$('#feed-' + data.id + ' .tags').addClass('hidden');
-					}
+					//} else {
+					//	$('#feed-' + data.id + ' .tags').addClass('hidden');
+					//}
 
 					// Location
 					if(data.location) {
